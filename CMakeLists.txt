@@ -126,13 +126,9 @@ include_directories(
 )
 
 set(SOURCES ${CPP_FILES})
-add_library(TARGET_NAME SHARED ${SOURCES})
-target_include_directories(TARGET_NAME PUBLIC ${INCLUDE_DIRECTORIES} )
-target_link_libraries(TARGET_NAME ) # fill this up with the dependencies you want for eg opencv
 
-add_executable(edge_detection_bin src/EdgeDetector.cpp )
-target_include_directories(edge_detection_bin PUBLIC ${INCLUDE_DIRECTORIES} )
-target_link_libraries(edge_detection_bin TARGET_NAME)
+
+
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
