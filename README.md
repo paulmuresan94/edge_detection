@@ -3,7 +3,7 @@
 ## Introduction
 This is my solution to the neura edge detection test. 
 
-DISCLAIMER: Unfortunately I couldnt execute RViz correctly in my VM due to VRAM limitations (max. 128 MB for Windows host). Therefore I implemented only task 1 & 2 as far as possible without RViz. Due to time constrains I couldnt fix a bug and implement the rgbd to point cloud conversion. With a little more time I could implement those too. 
+DISCLAIMER: Unfortunately I couldnt execute RViz correctly in my VM due to VRAM limitations (max. 128 MB for Windows host). Therefore I implemented only task 1 & 2 as far as possible without RViz. Due to time constrains I couldnt fix a bug and couldnt implement the rgbd to point cloud conversion. With a little more time I could implement those too. 
 
 ## Dependencies
 - OpenCV 4.2.0
